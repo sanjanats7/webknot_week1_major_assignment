@@ -6,7 +6,6 @@
 }
 body {
   margin: auto;
-  font-family: Arial, sans-serif;
 }
 
 /* Styles for header */
@@ -705,6 +704,17 @@ footer {
   justify-content: center;
 }
 @media screen and (max-width: 1440px) {
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
   .video_section {
     width: 90%;
     margin: 0 auto 138px auto;
@@ -725,6 +735,17 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
   .testimonials_container {
     flex-wrap: wrap;
     justify-content: center;
@@ -757,6 +778,17 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
   .text2 {
     font-size: 36px;
   }
@@ -831,6 +863,17 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
   .text2 {
     font-size: 32px;
   }
@@ -872,6 +915,17 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
   .text2 {
     font-size: 28px;
   }
@@ -924,6 +978,17 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
   .text2 {
     font-size: 24px;
   }
